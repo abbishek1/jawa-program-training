@@ -1,0 +1,75 @@
+
+//Write a function to find whether the given input number is Even.
+//If the given number is even, the function should return 2 else it should return 1
+import java.util.Scanner;
+public class Even{
+public static void main(String[]args){
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Enter the number:");
+    int num=sc.nextInt();
+if(num%2==0)
+{
+   System.out.println("2");  
+}
+else
+{
+     System.out.println("1");
+}
+}
+}
+//Write a function to find whether the given input number is Odd.
+//If the given number is odd, the function should return 2 else it should return 1.
+import java.util.Scanner;
+public class Odd{
+public static void main(String[]args){
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Enter the number:");
+    int num=sc.nextInt();
+if(num%2==0)
+{
+   System.out.println("1");  
+}
+else
+{
+     System.out.println("2");
+}
+}
+}
+//Write a function that returns the last digit of the given number.
+import java.util.Scanner;
+public class Last_Digit{
+public static void main(String[]args){
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Enter the number:");
+    int num=sc.nextInt();
+System.out.println(num%10);
+}
+}
+//Write a function that returns the second last digit of the given number.
+//Second last digit is being referred to the digit in the tens place in the given number.
+public class Second_Digit{
+public static void main(String[]args){
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Enter the number:");
+    int num=sc.nextInt();
+int z=Math.abs(num);
+System.out.println((z%100)/10);
+}
+}
+//to add the last digits of two given numbers.
+import java.util.Scanner;
+public class Even{
+public static void main(String[]args){
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Enter the number one:");
+    int num1=sc.nextInt();
+     int x=num1%10;
+     x=Math.abs(x);
+     System.out.println("Enter the number two:");
+    int num2=sc.nextInt();
+    int y=num2%10;
+    y=Math.abs(y);
+    System.out.println(x+y);
+
+}
+}
