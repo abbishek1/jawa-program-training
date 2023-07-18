@@ -1,0 +1,121 @@
+//program for positive or negative
+public class Exercise{
+  public static void main(String[]args){
+    int num=89;
+if(num>0){
+  System.out.println("positive");}
+else if(num<0){
+  System.out.println("negative");}
+else
+{
+  System.out.prinln("zero")
+    }
+  }
+}
+//program for greater number
+public class Exercise2{
+  public static void main(Sring[]args){
+    int num1=34;
+    int num2=23;
+if(num1>num2){
+  System.out.println(num1);}
+esle
+{
+  System.out.println(num2);}
+  }
+}
+//program for even or odd
+public class Exercise3{
+  public static void main(Sring[]args){
+    int num=23;
+if(num/2==0){
+  System.out.println("even");}
+else
+{
+  System.out.println("odd");}
+  }
+}
+//program for sum of two num is odd or even
+public class Exercise4{
+  public static void main(Sring[]args){
+    int num1=34;
+    int num2=23;
+    int z=num1+num2;
+if(z/2==0){
+  System.out.println("even");}
+ else
+{
+  System.out.println("odd");}
+  }
+}
+//program to print all numbers from 1 to 100
+public class Exercise5
+{
+    public static void main(String[] args)
+    {
+        for(int i = 1; i <= 100; i++)
+        {
+            System.out.println(i);
+        }
+    }
+}
+//program to print alternate numbers from 1 to 99
+public class Exercie6  
+{  
+public static void main(String args[])   
+{  
+int number=100;  
+System.out.print("List of odd numbers from 1 to 99:\n ");  
+for (int i=1; i<=number; i++)   
+{  
+if (i%2!=0)   
+{  
+System.out.print(i + " ");  
+}  
+}  
+}  
+}  
+//program to print alternate nlumbers  from 0 to 100
+public class Exercise7
+{  
+    public static void main(String args[])   
+    {  
+        int n=100;  
+        System.out.print("List of even numbers from 1 to 100: \n");  
+        for (int i=1; i<=n; i++)   
+        { 
+            if ( i%2 == 0 )
+            {
+                System.out.print(i + " ");
+            }
+        }
+    }  
+}
+//program to print backward numbers
+import java.util.Scanner;
+public class Exercise8
+{
+	public static void main(String[] args)
+	{
+		Scanner input = new Scanner(System.in);
+		System.out.print("Enter The Starting Number : ");
+		int s =input.nextInt();
+		System.out.print("Enter The Ending Number : ");
+		int e =input.nextInt(); 
+		while(s>=e)
+		{
+			System.out.println(s);
+			s--;
+		}
+	}
+}
+//program to print backward numbers by skipping 2 numbers
+public class Main
+{
+    public static void main(String[]args){
+        System.out.println("The numbers from one to hundred are:");
+        int n=100;
+        for( int i=n;i>=1;i=i-3){
+         System.out.print(i+" ");}    
+        }
+    }
