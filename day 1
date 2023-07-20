@@ -1,0 +1,47 @@
+import java.util.Scanner;
+
+public class HelloWorld {
+
+    public static void main(String[] args) {
+        Scanner reader = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+
+        int number = reader.nextInt();
+
+        System.out.println("You entered: " + number);
+    }
+}
+
+Program to Add Two Integers
+class Main {
+
+  public static void main(String[] args) {
+    
+    int first = 10;
+    int second = 20;
+
+    // add two numbers
+    int sum = first + second;
+    System.out.println(first + " + " + second + " = "  + sum);
+  }
+}
+Example: Check if a Number is Positive or Negative using if else
+public class PositiveNegative {
+
+    public static void main(String[] args) {
+
+        double number = 12.3;
+
+        // true if number is less than 0
+        if (number < 0.0)
+            System.out.println(number + " is a negative number.");
+
+        // true if number is greater than 0
+        else if ( number > 0.0)
+            System.out.println(number + " is a positive number.");
+
+        // if both test expression is evaluated to false
+        else
+            System.out.println(number + " is 0.");
+    }
+}
